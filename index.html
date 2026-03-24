@@ -15,4 +15,27 @@
         <Button>Enviar Email</Button>
     </form>
 </body>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBOprBDzEQ-l6FSoH5on2N9jpf2iKCpX5k",
+    authDomain: "gestaodeidentidades-46daa.firebaseapp.com",
+    projectId: "gestaodeidentidades-46daa",
+    storageBucket: "gestaodeidentidades-46daa.firebasestorage.app",
+    messagingSenderId: "690978806727",
+    appId: "1:690978806727:web:5ebf00600590ed57c657e2",
+    measurementId: "G-NSK2T6XDSF"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </html>
